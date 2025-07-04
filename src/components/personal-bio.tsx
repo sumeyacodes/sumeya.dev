@@ -12,7 +12,7 @@ const Formatting = ({ children }: { children: ReactNode }) => {
 
 export function Bio() {
   return (
-    <section className="space-y-5 text-primary">
+    <section className="space-y-5 text-secondary">
       {content.map((text, index) => (
         <Formatting key={index}>{text}</Formatting>
       ))}

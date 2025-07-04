@@ -5,16 +5,15 @@ import { myProjects, openSourceProjects } from "./util/content";
 
 export default function App() {
   return (
-    <main className="space-y-6">
+    <main className="space-y-6 my-20">
       <h1 className="text-4xl">hi, i'm sumeya.</h1>
       <Bio />
       <SocialLinks />
+      <h1>open source contributions</h1>
+      <Cards projects={openSourceProjects} />
 
       <h1>my projects</h1>
       <Cards projects={myProjects} />
-
-      <h1>open source contributions</h1>
-      <Cards projects={openSourceProjects} />
     </main>
   );
 }

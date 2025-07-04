@@ -8,6 +8,18 @@ export const myProjects: Projects[] = [
       "a full-stack web app that converts PDF content into audio using text-to-speech.",
     url: "https://github.com/sumeyacodes/pdf-waffleizer",
   },
+  {
+    title: "hipomo",
+    description:
+      "a pomodoro timer discord bot to help streamline study group sessions.",
+    url: "https://github.com/sumeyacodes/hi-pomo-bot",
+  },
+  {
+    title: "journal",
+    description:
+      "a mockup daily journaling app with a messaging-style interface.",
+    url: "https://my-journal-mockup.vercel.app",
+  },
 ];
 
 export const openSourceProjects: Projects[] = [
