@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg: light-dark(#918e88, #131517);
-  --color-primary: light-dark(#3b3d3d, rgba(255, 255, 255, 0.6));
+  --color-bg: light-dark(#e5e2dc, #131517);
+  --color-primary: light-dark(
+    rgba(29, 33, 40, 0.887),
+    rgba(255, 255, 255, 0.6)
+  );
   --color-secondary: light-dark(#2e3333be, #7c7979f8);
   --color-accent: #1a51a3e0;
   --font-family-sans: system-ui, Avenir, Helvetica, Arial, sans-serif;

@@ -5,7 +5,7 @@ import { myProjects, openSourceProjects } from "./util/content";
 
 export default function App() {
   return (
-    <main className="space-y-8">
+    <main className="space-y-6">
       <h1 className="text-4xl">hi, i'm sumeya.</h1>
       <Bio />
       <SocialLinks />
