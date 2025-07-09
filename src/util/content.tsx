@@ -1,34 +1,40 @@
 import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import type { Socials, Projects } from "./types";
 
-export const myProjects: Projects[] = [
+export const content = [
+  "i'm a junior full-stack developer based in london.",
+  "i love to learn by building things that interest me, so i’m always tinkering with something new or working on projects to explore different technologies.",
+  "mostly, i like making things i’d want to use myself or that are just fun to build.",
+];
+
+export const currentProjects: Projects[] = [
   {
-    title: "pdf waffleizer",
+    title: "v3xlabs/ethereum-forum",
+    description:
+      "an open source aggregator for all things ethereum and all core developers (ACD).",
+    url: "https://github.com/v3xlabs/ethereum-forum",
+  },
+  {
+    title: "pdf-waffleizer",
     description:
       "a full-stack web app that converts PDF content into audio using text-to-speech.",
     url: "https://github.com/sumeyacodes/pdf-waffleizer",
   },
-  {
-    title: "hipomo",
-    description:
-      "a pomodoro timer discord bot to help streamline study group sessions.",
-    url: "https://github.com/sumeyacodes/hi-pomo-bot",
-  },
-  {
-    title: "journal",
-    description:
-      "a mockup daily journaling app with a messaging-style interface.",
-    url: "https://my-journal-mockup.vercel.app",
-  },
 ];
 
-export const openSourceProjects: Projects[] = [
+export const oldProjects: Projects[] = [
   {
-    title: "ethereum forum",
+    title: "hi-pomo",
     description:
-      "an open source calendar aggregator and forum for ethereum, built by v3xlabs.",
-    url: "https://github.com/sumeyacodes/ethereum-forum",
+      "a pomodoro timer discord bot that helps manage group study sessions with friends.",
+    url: "https://github.com/sumeyacodes/hi-pomo-bot",
   },
+  // {
+  //   title: "journal",
+  //   description:
+  //     "a mockup daily journaling app with a messaging-style interface.",
+  //   url: "https://my-journal-mockup.vercel.app",
+  // },
 ];
 
 export const socials: Socials[] = [

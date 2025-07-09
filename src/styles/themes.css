@@ -3,11 +3,11 @@
 @theme {
   --color-bg: light-dark(#d7d7d7, #23272a);
   --color-primary: light-dark(
-    rgba(40, 45, 54, 0.887),
+    rgba(68, 70, 75, 0.953),
     rgba(184, 172, 172, 0.961)
   );
-  --color-secondary: light-dark(#414a4afa, #b4ababd8);
-  --color-accent: #1a51a3e0;
+  --color-secondary: light-dark(#414a4ae8, #b4ababd8);
+  --color-accent: #3f76c8d9;
   --font-family-sans: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
@@ -23,24 +23,4 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-#root {
-  margin: 0 auto;
-  max-width: 700px;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: var(--color-bg);
-  color: var(--color-primary);
-  padding: 2rem;
 }

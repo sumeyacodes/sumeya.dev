@@ -7,7 +7,7 @@ export function SocialLinks() {
         <a
           key={social.url}
           href={social.url}
-          className="text-accent hover:text-accent/65 transition-colors duration-200">
+          className="text-accent hover:text-accent/65 transition-colors duration-250">
           {social.icon}
         </a>
       ))}
