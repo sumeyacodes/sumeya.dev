@@ -1,19 +1,30 @@
-#root {
-  margin: 0 auto;
-  max-width: 45rem;
-}
+@import "tailwindcss";
 
-h1 {
-  font-size: 1.8rem;
-}
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #root {
+    margin: 0 auto;
+    max-width: 50rem;
+  }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 20px;
-  min-height: 100vh;
-  background-color: var(--color-bg);
-  color: var(--color-primary);
-  padding: 1.5rem;
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  body {
+    display: flex;
+    place-items: center;
+    min-width: 20rem;
+    min-height: 100vh;
+    font-weight: 400;
+  }
+}
+@media print {
+  @page {
+    margin: 0;
+  }
 }

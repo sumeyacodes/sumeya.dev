@@ -2,12 +2,13 @@ import { socials } from "../util/content";
 
 export function SocialLinks() {
   return (
-    <span className="inline-flex space-x-5 text-2xl">
+    <span className="flex items-center text-2xl space-1">
       {socials.map((social) => (
         <a
           key={social.url}
+          title={social.title}
           href={social.url}
-          className="text-accent hover:text-accent/65 transition-colors duration-250">
+          className="text-accent p-2 rounded-lg bg-transparent hover:backdrop-brightness-90 transition-all duration-250 block">
           {social.icon}
         </a>
       ))}

@@ -2,9 +2,9 @@ import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import type { Socials, Projects } from "./types";
 
 export const content = [
-  "i'm a junior full-stack developer based in london.",
-  "i love to learn by building things that interest me, so i’m always tinkering with something new or working on projects to explore different technologies.",
-  "mostly, i like making things i’d want to use myself or that are just fun to build.",
+  "i'm a junior software developer based in london.",
+  "most of my projects are built with typescript, javascript, react, and node.js, but i've recently started exploring rust for backend development.",
+  "if anything here catches your interest, feel free to check out my github or linkedin, or drop me an email below.",
 ];
 
 export const currentProjects: Projects[] = [
@@ -20,34 +20,37 @@ export const currentProjects: Projects[] = [
       "a full-stack web app that converts PDF content into audio using text-to-speech.",
     url: "https://github.com/sumeyacodes/pdf-waffleizer",
   },
-];
-
-export const oldProjects: Projects[] = [
   {
     title: "hi-pomo",
     description:
       "a pomodoro timer discord bot that helps manage group study sessions with friends.",
     url: "https://github.com/sumeyacodes/hi-pomo-bot",
   },
-  // {
-  //   title: "journal",
-  //   description:
-  //     "a mockup daily journaling app with a messaging-style interface.",
-  //   url: "https://my-journal-mockup.vercel.app",
-  // },
 ];
 
 export const socials: Socials[] = [
   {
+    title: "Github",
     icon: <FiGithub />,
     url: "https://github.com/sumeyacodes",
   },
   {
+    title: "LinkedIn",
     icon: <FiLinkedin />,
     url: "https://www.linkedin.com/in/sumeyaahmed/",
   },
   {
+    title: "Email",
     icon: <FiMail />,
     url: "mailto:sumeya4hmed@gmail.com",
+  },
+];
+
+export const other = [
+  {
+    title: "school of code",
+    date: "Nov 2024 - March 2025",
+    description:
+      "completed a 4-month intensive bootcamp for full-stack development that introduced me to javascript, typescript, react, node.js, and postgres.",
   },
 ];
