@@ -1,10 +1,11 @@
 import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import type { Socials, Projects } from "./types";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const content = [
   "i'm a junior software developer based in london.",
   "most of my projects are built with typescript, javascript, react, and node.js, but i've recently started exploring rust for backend development.",
-  "if anything here catches your interest, feel free to check out my github or linkedin, or drop me an email below.",
+  "if anything here catches your interest, feel free to check out my github, x, linkedin, or drop me an email below.",
 ];
 
 export const currentProjects: Projects[] = [
@@ -30,9 +31,14 @@ export const currentProjects: Projects[] = [
 
 export const socials: Socials[] = [
   {
-    title: "Github",
+    title: "GitHub",
     icon: <FiGithub />,
     url: "https://github.com/sumeyacodes",
+  },
+  {
+    title: "X (aka twitter)",
+    icon: <FaXTwitter />,
+    url: "https://x.com/sumeyacodes",
   },
   {
     title: "LinkedIn",
@@ -40,7 +46,7 @@ export const socials: Socials[] = [
     url: "https://www.linkedin.com/in/sumeyaahmed/",
   },
   {
-    title: "Email",
+    title: "sumeya4hmed@gmail.com",
     icon: <FiMail />,
     url: "mailto:sumeya4hmed@gmail.com",
   },
