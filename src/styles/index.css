@@ -22,9 +22,19 @@
     min-height: 100vh;
     font-weight: 400;
   }
+
+  section {
+    @apply space-y-6;
+  }
 }
 @media print {
   @page {
+    size: auto;
     margin: 0;
+    padding: 0;
+  }
+
+  .download-button {
+    display: none;
   }
 }

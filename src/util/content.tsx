@@ -3,7 +3,7 @@ import type { Socials, Projects } from "./types";
 import { FaXTwitter } from "react-icons/fa6";
 
 export const content = [
-  "i'm a junior software developer based in london.",
+  "i'm a junior software engineer based in london.",
   "most of my projects are built with typescript, javascript, react, and node.js, but i've recently started exploring rust for backend development.",
   "if anything here catches your interest, feel free to check out my github, x, linkedin, or drop me an email below.",
 ];

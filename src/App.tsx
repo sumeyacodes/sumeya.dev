@@ -12,15 +12,20 @@ export default function App() {
         <DownloadButton />
       </header>
 
-      <PersonalBio content={content} />
+      <section>
+        <PersonalBio content={content} />
+        <SocialLinks />
+      </section>
 
-      <SocialLinks />
+      <section>
+        <h1>things i've worked on</h1>
+        <Cards cardContent={currentProjects} />
+      </section>
 
-      <h1>things i've worked on</h1>
-      <Cards cardContent={currentProjects} />
-
-      <h1>other things</h1>
-      <Cards cardContent={other} />
+      <section>
+        <h1>other things</h1>
+        <Cards cardContent={other} />
+      </section>
     </main>
   );
 }
