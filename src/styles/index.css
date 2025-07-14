@@ -34,13 +34,14 @@
     padding: 0;
   }
 
-  /* safari pring styling */
+  /* safari print styling */
   html,
   body {
     width: 210mm;
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: white;
   }
   button {
     display: none;
