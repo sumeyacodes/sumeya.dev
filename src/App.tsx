@@ -17,10 +17,10 @@ export default function App() {
       <SocialLinks />
 
       <h1>things i've worked on</h1>
-      <Cards content={currentProjects} />
+      <Cards cardContent={currentProjects} />
 
       <h1>other things</h1>
-      <Cards content={other} />
+      <Cards cardContent={other} />
     </main>
   );
 }

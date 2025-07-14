@@ -3,7 +3,7 @@ import type { JSX } from "react";
 export interface Projects {
   title: string;
   description: string;
-  url?: string | null;
+  url: string;
   date?: string;
 }
 

@@ -51,6 +51,7 @@ export const other = [
     title: "school of code",
     date: "Nov 2024 - March 2025",
     description:
-      "completed a 4-month intensive bootcamp for full-stack development that introduced me to javascript, typescript, react, node.js, and postgres.",
+      "completed a 16-week bootcamp for full-stack development, which introduced me to javascript, typescript, react, node.js, postgres, and other modern web technologies.",
+    url: "https://schoolofcode.co.uk/course/",
   },
 ];
