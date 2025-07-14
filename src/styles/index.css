@@ -24,7 +24,7 @@
   }
 
   section {
-    @apply space-y-6;
+    @apply space-y-4;
   }
 }
 @media print {
@@ -34,7 +34,18 @@
     padding: 0;
   }
 
-  .download-button {
+  /* safari pring styling */
+  html,
+  body {
+    width: 210mm;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  button {
     display: none;
+  }
+  .print {
+    display: block;
   }
 }

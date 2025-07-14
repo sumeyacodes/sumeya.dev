@@ -3,10 +3,13 @@ import { Cards } from "./components/cards";
 import { SocialLinks } from "./components/social-links";
 import { currentProjects, content, other } from "./util/content";
 import { DownloadButton } from "./components/download-button";
+import { PrintMessage } from "./components/print-message";
 
 export default function App() {
   return (
-    <main className="space-y-6 p-[1.5rem] md:p-[2rem]">
+    <main className="space-y-4 p-[1.5rem] md:p-[2rem] break-inside-avoid-page">
+      <PrintMessage />
+
       <header className="flex items-center justify-between">
         <h1>hi, i'm sumeya.</h1>
         <DownloadButton />
